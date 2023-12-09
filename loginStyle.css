@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #e9ebee;
+}
+.bar{
+    height: 100px;
+    background-color: #3c5a99;
+    padding: 10px;
+}
+.headerText{
+    color: #d9dfeb;
+    font-size: 40px;
+}
+.signupText{
+    color: #d9dfeb;
+    background-color: #42b72a;
+    width: 70px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    float: right;
+}
