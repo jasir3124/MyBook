@@ -9,6 +9,9 @@ body {
   height: 100px;
   background-color: #3c5a99;
   padding: 10px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .headerText {
   color: #d9dfeb;
@@ -21,7 +24,8 @@ body {
   text-align: center;
   padding: 4px;
   border-radius: 5px;
-  float: right;
+  height: fit-content;
+  margin-top: 10px;
 }
 .loginFormCont{
     background-color: white;
