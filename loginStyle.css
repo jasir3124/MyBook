@@ -1,25 +1,60 @@
-*{
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: #e9ebee;
+body {
+  background-color: #e9ebee;
 }
-.bar{
-    height: 100px;
-    background-color: #3c5a99;
+.bar {
+  height: 100px;
+  background-color: #3c5a99;
+  padding: 10px;
+}
+.headerText {
+  color: #d9dfeb;
+  font-size: 40px;
+}
+.signupText {
+  color: #d9dfeb;
+  background-color: #42b72a;
+  width: 70px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  float: right;
+}
+.loginFormCont{
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
     padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
-.headerText{
-    color: #d9dfeb;
-    font-size: 40px;
-}
-.signupText{
-    color: #d9dfeb;
-    background-color: #42b72a;
-    width: 70px;
+.loginForm{
     text-align: center;
-    padding: 4px;
-    border-radius: 5px;
-    float: right;
+}
+.loginText{
+    font-weight: bold;
+    font-size: 30px;
+}
+.inputForm{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #aaa;
+    padding-inline: 5px;
+    font-size: 14px;
+}
+.submitBtn{
+    width: 310px;
+    border-radius: 4px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #3c5a99;
+    color: white;
+    border: none;
 }
