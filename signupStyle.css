@@ -54,6 +54,9 @@ body {
   padding-inline: 5px;
   font-size: 14px;
 }
+.genderOptionText{
+  padding-bottom: 5px;
+}
 .selectForm{
     width: 310px;
     height: 40px;
