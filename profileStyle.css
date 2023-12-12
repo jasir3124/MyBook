@@ -2,23 +2,28 @@
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+  background-color: #d0d8e4;
+}
 .header {
   background-color: #405d9b;
   color: #d9dfeb;
   padding: 5px;
+  display: flex;
+  justify-content: space-between; 
+}
+.header > h1{
+  width: fit-content;
 }
 .searchCont {
-  width: 800px;
-  margin: auto;
   font-size: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .searchBox {
   width: 400px;
   height: 20px;
-  margin-left: 35px;
+  margin-right: 30px;
   border-radius: 4px;
   border: 0;
   padding: 5px;
@@ -27,4 +32,16 @@
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: right;
+}
+.coverArea{
+  width: 800px;
+  min-height: 400px;
+  background-color: black;
+  margin: auto;
+}
+.profilePic{
+  width: 250px;
+  margin-top: -200px;
+  border-radius: 50%;
+  border: solid 2px white;
 }

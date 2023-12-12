@@ -8,11 +8,22 @@
 </head>
 <body>
     <div class="header" id="bar">
+        <h1>MyBook</h1> 
         <div class="searchCont">
-            <h1>MyBook</h1> 
             <input type="text" class="searchBox" id="searchBox" placeholder="Search">
             <img src="images/profileImage.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden;">
         </div>
     </div>
-</body>
+
+    <div class="coverArea">
+        <div style="background-color: white; text-align: center; color: #405d9b;">
+            <img src="images/profileBackground.avif" style="width: 100%; height: 100%;" alt="">
+            <img src="images/profileImage.jpg" class="profilePic" alt="">
+            <br>
+            John Doe
+            <br>
+            Timelie About Friends Photos
+        </div>
+    </div>
+</body> 
 </html>
