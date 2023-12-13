@@ -36,12 +36,16 @@ body{
 .coverArea{
   width: 800px;
   min-height: 400px;
-  background-color: black;
   margin: auto;
 }
 .profilePic{
   width: 250px;
-  margin-top: -200px;
+  margin-top: -230px;
   border-radius: 50%;
   border: solid 2px white;
+}
+.menuButtons{
+  width: 100px;
+  display: inline-block;
+  margin: 2px;
 }

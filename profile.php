@@ -20,9 +20,18 @@
             <img src="images/profileBackground.avif" style="width: 100%; height: 100%;" alt="">
             <img src="images/profileImage.jpg" class="profilePic" alt="">
             <br>
-            John Doe
+            <div style="font-size: 30px;">John Doe</div>
             <br>
-            Timelie About Friends Photos
+            <div id="menuButtons" class="menuButtons"> Timelie </div> 
+            <div id="menuButtons" class="menuButtons">About</div> 
+            <div id="menuButtons" class="menuButtons">Friends</div> 
+            <div id="menuButtons" class="menuButtons">Photos</div> 
+            <div id="menuButtons" class="menuButtons">Settings</div>
+        </div>
+
+        <div style="display: flex;">
+            <div style="min-height: 400px;flex:1;"></div>
+            <div style="min-height: 400px;flex:1;"></div>
         </div>
     </div>
 </body> 
