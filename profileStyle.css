@@ -34,7 +34,7 @@ body{
   background-position: right;
 }
 .coverArea{
-  width: 800px;
+  width: 1000px;
   min-height: 400px;
   margin: auto;
 }
@@ -48,4 +48,24 @@ body{
   width: 100px;
   display: inline-block;
   margin: 2px;
+}
+.friendProfile{
+  width: 75px;
+  height: 60px;
+  float: left;
+  margin: 8px;
+}
+.friendsBar{
+  margin-top: 20px;
+  background-color: white;
+  min-height: 400px;
+  color: #aaa;
+  padding: 8px ;
+}
+.friend{
+  clear: both;
+  font-size: 15px;
+  font-weight: bold;
+  color: #405d9b;
+  text-transform: capitalize;
 }

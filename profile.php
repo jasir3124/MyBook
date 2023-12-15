@@ -29,9 +29,40 @@
             <div id="menuButtons" class="menuButtons">Settings</div>
         </div>
 
+
+        <!-- below cover area -->
         <div style="display: flex;">
-            <div style="min-height: 400px;flex:1;"></div>
-            <div style="min-height: 400px;flex:1;"></div>
+        <!-- Friends area -->
+            <div style="min-height: 400px;flex:1;">
+                <div class="friendsBar" id="friendsBar">
+                    Friends <br>
+                    <div class="friend">
+                        <img src="images/user1.jpg" alt="" class="friendProfile"> 
+                        <br>
+                        first user
+                    </div>
+                    <div class="friend">
+                        <img src="images/user2.jpg" alt="" class="friendProfile"> 
+                        <br>
+                        second user
+                    </div>
+                    <div class="friend">
+                        <img src="images/user3.jpeg" alt="" class="friendProfile"> 
+                        <br>
+                        third user
+                    </div>
+                    <div class="friend">
+                        <img src="images/user4.jpeg" alt="" class="friendProfile"> 
+                        <br>
+                        fourth user
+                    </div>
+                 </div>
+            </div>
+        
+        <!-- posts area  -->
+            <div style="min-height: 400px;flex:2.5;">
+                Posts
+            </div>
         </div>
     </div>
 </body> 
