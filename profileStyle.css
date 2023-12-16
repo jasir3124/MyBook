@@ -2,7 +2,7 @@
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
+body {
   background-color: #d0d8e4;
 }
 .header {
@@ -10,9 +10,9 @@ body{
   color: #d9dfeb;
   padding: 5px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
-.header > h1{
+.header > h1 {
   width: fit-content;
 }
 .searchCont {
@@ -33,39 +33,60 @@ body{
   background-repeat: no-repeat;
   background-position: right;
 }
-.coverArea{
+.coverArea {
   width: 1000px;
   min-height: 400px;
   margin: auto;
 }
-.profilePic{
+.profilePic {
   width: 250px;
   margin-top: -230px;
   border-radius: 50%;
   border: solid 2px white;
 }
-.menuButtons{
+.menuButtons {
   width: 100px;
   display: inline-block;
   margin: 2px;
 }
-.friendProfile{
+.friendProfile {
   width: 75px;
   height: 60px;
   float: left;
   margin: 8px;
 }
-.friendsBar{
+.friendsBar {
   margin-top: 20px;
   background-color: white;
   min-height: 400px;
   color: #aaa;
-  padding: 8px ;
+  padding: 8px;
 }
-.friend{
+.friend {
   clear: both;
   font-size: 15px;
   font-weight: bold;
   color: #405d9b;
   text-transform: capitalize;
+}
+.postInputCont {
+  border: solid thin #aaa;
+  padding: 10px;
+  background-color: white;
+}
+.postInput {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  height: 60px;
+}
+#postButton{
+  float: right;
+  background-color: #405d9b;
+  border: none;
+  padding: 4px;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  width: 50px;
 }

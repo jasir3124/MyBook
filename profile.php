@@ -60,8 +60,12 @@
             </div>
         
         <!-- posts area  -->
-            <div style="min-height: 400px;flex:2.5;">
-                Posts
+            <div style="min-height: 400px;flex:2.5; padding: 20px; padding-right: 0px;">
+                <div class="postInputCont">
+                    <textarea class="postInput" placeholder="Whats on your mind" name="" id="" cols="30" rows="10"></textarea>
+                    <input id="postButton" type="submit" value="Post">
+                    <br>
+                </div>
             </div>
         </div>
     </div>
