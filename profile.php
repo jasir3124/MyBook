@@ -66,8 +66,66 @@
                     <input id="postButton" type="submit" value="Post">
                     <br>
                 </div>
+                <!-- posts -->
+                <div class="postsCont" id="postsCont">
+
+                <!-- post 1 -->
+                    <div class="post">
+                        <div>
+                             <img src="images/user1.jpg" alt="" style="width: 75px; height: 65px; margin-right: 4px;">
+                        </div>
+                        <div>
+                            <div style="font-weight: bold; color: #405d9b;">
+                                First Guy
+                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Voluptate, voluptatum ea alias distinctio delectus cumque officia debitis
+                            fuga consequuntur maxime ducimus est perspiciatis porro totam excepturi necessitatibus
+                            , soluta laborum unde.
+                            <br><br>
+                            <a href="">Like</a> . <a href="">Comment</a>  . <span style="color: #999;">April 23 2020</span>
+                        </div>
+                    </div>
+                <!-- post 2 -->
+                    <div class="post">
+                        <div>
+                             <img src="images/user2.jpg" alt="" style="width: 75px; height: 65px; margin-right: 4px;">
+                        </div>
+                        <div>
+                            <div style="font-weight: bold; color: #405d9b;">
+                                Second Guy
+                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Voluptate, voluptatum ea alias distinctio delectus cumque officia debitis
+                            fuga consequuntur maxime ducimus est perspiciatis porro totam excepturi necessitatibus
+                            , soluta laborum unde.
+                            <br><br>
+                            <a href="">Like</a> . <a href="">Comment</a>  . <span style="color: #999;">April 23 2020</span>
+                        </div>
+                    </div>
+                <!-- post 3 -->
+                    <div class="post">
+                        <div>
+                             <img src="images/user3.jpeg" alt="" style="width: 75px; height: 65px; margin-right: 4px;">
+                        </div>
+                        <div>
+                            <div style="font-weight: bold; color: #405d9b;">
+                                First Guy
+                            </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Voluptate, voluptatum ea alias distinctio delectus cumque officia debitis
+                            fuga consequuntur maxime ducimus est perspiciatis porro totam excepturi necessitatibus
+                            , soluta laborum unde.
+                            <br><br>
+                            <a href="">Like</a> . <a href="">Comment</a>  . <span style="color: #999;">April 23 2020</span>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </div>
+
     </div>
 </body> 
 </html>

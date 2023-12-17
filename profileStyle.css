@@ -90,3 +90,14 @@ body {
   border-radius: 2px;
   width: 50px;
 }
+.postsCont{
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.post{
+  padding: 10px;
+  font-size: 13px;
+  display: flex;
+  margin-bottom: 30px;
+}
