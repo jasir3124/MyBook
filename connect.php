@@ -6,10 +6,14 @@
 
     $conn = mysqli_connect($host, $username, $password, $dbName);
 
-    $firstName = "Jasir";
-    $lastName = "Limani";
 
-    $query = "INSERT INTO users (firstName, lastName)  VALUES ('$firstName', '$lastName')";
+    $query = "SELECT * FROM users";
 
-    mysqli_query($conn, $query);
+    $result = mysqli_query($conn, $query);
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<pre>";
+        print_r($row);
+        echo "</pre>";
+    }
 ?>
