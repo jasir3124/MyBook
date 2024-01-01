@@ -56,4 +56,3 @@ $data = $DB->read('SELECT * FROM users');
 
 print_r($data);
 ?>
-
