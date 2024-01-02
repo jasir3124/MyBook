@@ -46,13 +46,4 @@ class DataBase{
         }
     }
 }
-
-
-
-
-$DB = new DataBase();
-
-$data = $DB->read('SELECT * FROM users');
-
-print_r($data);
 ?>
