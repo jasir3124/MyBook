@@ -6,6 +6,24 @@
                 if(empty($value)){
                     $this->error .= "$key is required and cannot be empty. <br>";
                 }
+
+                if ($key === "email") {
+                    if(!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $value)){
+                        $this->error .= "invalid email address <br>";
+                    }
+                }
+
+                if ($key == "firstname") {
+                    if(is_numeric($value)){
+                        $this->error .= "first name cant be a number cant be a number <br>";
+                    }
+                }
+
+                if ($key == "lastname") {
+                    if(is_numeric($value)){
+                        $this->error .= "last name cant be a number <br>";
+                    }
+                }
             }
 
             if ($this->error == "") {
@@ -18,10 +36,10 @@
         public function createUser($data){
 
             $firstName = $data['firstname'];
-            $lastName = $data['$lastName'];
-            $gender = $data['$gender'];
+            $lastName = $data['lastname'];
+            $gender = $data['gender'];
             $email = $data['email'];
-            $password = $data['$password'];
+            $password = $data['password'];
 
             // create these
             $urlAddress = strtolower($firstName) . "." . strtolower($lastName);
