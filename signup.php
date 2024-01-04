@@ -16,6 +16,9 @@
             echo "the following errors occurred: <br> <br>";
             echo $result;
             echo "</div>";
+        } else{
+            header("Location: profile.php");
+            die;
         }
 
         $firstname = $_POST['firstname'];
