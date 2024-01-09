@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    print_r($_SESSION);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +21,7 @@
 
     <div class="coverArea">
         <div style="background-color: white; text-align: center; color: #405d9b;">
-            <img src="images/profileBackground.avif" style="width: 100%; height: 100%;" alt="">
+            <img src="images/profileBackground.avif" style="width: 100%;" alt="">
             <img src="images/profileImage.jpg" class="profilePic" alt="">
             <br>
             <div style="font-size: 30px;">John Doe</div>

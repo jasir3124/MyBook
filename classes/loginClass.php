@@ -1,9 +1,8 @@
 <?php
-class Login{
+class Login {
     private $error = "";
 
-    public function evaluate($data){
-
+    public function evaluate($data) {
         $email = addslashes($data['email']);
         $password = addslashes($data['password']);
 
@@ -12,22 +11,21 @@ class Login{
         $DB = new DataBase();
         $result = $DB->read($query);
 
-        if($result){
-
+        if ($result) {
             $row = $result[0];
 
             if ($password == $row['password']) {
-                // create session dara
-
-                $_SESSION['user_id'] = $row['user_id'];
-                
-            }else{
-                $this->error .= "Wrond password.";
+                // create session data
+                $_SESSION['myBook_user_id'] = $row['user_id'];
+            } else {
+                $this->error .= "Wrong password.";
             }
-
-        } else{
-            return $this->error .= "No such email was found.";
+        } else {
+            $this->error .= "No such email was found.";
         }
+
+        return $this->error;
     }
 }
+
 ?>

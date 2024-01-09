@@ -16,7 +16,7 @@
             echo "the following errors occurred: <br> <br>";
             echo $result;
             echo "</div>";
-        } else{
+        } else {
             header("Location: profile.php");
             die;
         }
@@ -24,7 +24,6 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,10 +41,12 @@
 
     <div class="loginFormCont">
         <div class="loginForm"> 
-            <p class="loginText">Log in to MyBook</p><br><br>
-            <input value="<?php echo $email ?>" type="text" class="inputForm" placeholder="Email"><br><br>
-            <input type="password" class="inputForm" placeholder="Password"><br><br>
-            <input type="submit" class="submitBtn" value="Log in">
+            <form action="" method="post">
+                <p class="loginText">Log in to MyBook</p><br><br>
+                <input name="email" value="<?php echo $email ?>" type="text" class="inputForm" placeholder="Email"><br><br>
+                <input name="password" type="password" class="inputForm" placeholder="Password"><br><br>
+                <input type="submit" class="submitBtn" value="Log in">
+            </form>
         </div>
     </div>
 </body>
