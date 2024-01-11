@@ -1,6 +1,27 @@
 <?php
     session_start();
-    print_r($_SESSION);
+
+    include('classes/connect.php');
+    include('classes/loginClass.php');
+
+    if(isset($_SESSION['myBook_user_id']) && is_numeric($_SESSION['myBook_user_id'])){
+        
+        $id = $_SESSION['myBook_user_id'];
+
+        $login = new Login();
+
+        $result = $login->checkLogin($id);
+
+        if($result === true){
+            echo "everything is good";
+        } else {
+            header('Location: login.php');
+            die;
+        }
+    } else {
+        header('Location: login.php');
+        die;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">

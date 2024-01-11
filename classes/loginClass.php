@@ -26,6 +26,20 @@ class Login {
 
         return $this->error;
     }
+
+    public function checkLogin($userID){
+
+        $query = "SELECT user_id FROM users WHERE user_id = '$userID' limit 1";
+        
+        $DB = new DataBase();
+        $result = $DB->read($query);
+
+        if ($result) {
+            return true;
+        }
+
+        return false;
+    }
 }
 
 ?>
