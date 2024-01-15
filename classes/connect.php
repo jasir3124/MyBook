@@ -1,22 +1,23 @@
 <?php
-
-
-
-
 class DataBase{
 
-
-    private $password = '';
+    private $password = 'root';
     private $host = 'localhost';
     private $username = 'root';
     private $dbName = "mybook";
 
 
 
-    function connect(){
-        $conn = mysqli_connect($this->host, $this->username, $this->password, $this->dbName);
-        return $conn;
+function connect(){
+    $conn = mysqli_connect($this->host, $this->username, $this->password, $this->dbName);
+
+    if (mysqli_connect_errno()) {
+        die("Connection failed: " . mysqli_connect_error());
     }
+
+    return $conn;
+}
+
 
     function read($query){
         $conn = $this->connect();
@@ -46,4 +47,3 @@ class DataBase{
         }
     }
 }
-?>
